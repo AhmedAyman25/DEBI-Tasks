@@ -1,0 +1,11 @@
+border
+cellspacing
+cellpadding
+align
+valign
+width
+height
+bgcolor
+colspan
+rowspan
+<font color="blue">Blue Text</font>
