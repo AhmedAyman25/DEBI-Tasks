@@ -1,232 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 1</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <h1 align="center">1<sup>st</sup> Session<sub>&copy;</sub></h1>
-    <table
-      cellspacing="0"
-      class="master"
-      border="1 solid DodgerBlue"
-      width="80%"
-      align="center"
-      cellpadding="5"
-    >
-      <caption>
-        Table(1)
-      </caption>
-      <thead>
-        <tr bgcolor="#F5F5DC">
-          <th colspan="2">Links</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Stack Overflow</td>
-          <td>
-            <a href="https://stackoverflow.com/">https://stackoverflow.com/</a>
-          </td>
-          <td align="center">...</td>
-        </tr>
-        <tr>
-          <td>W3School</td>
-          <td>
-            <a href="https://www.w3schools.com/">https://www.w3schools.com/</a>
-          </td>
-          <td rowspan="2" align="center">...</td>
-        </tr>
-        <tr>
-          <td>Laravel</td>
-          <td>
-            <a href="https://laravel.com/docs/11.x/readme"
-              >https://laravel.com/docs/11.x/readme</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td colspan="3" align="center">StockCoders</td>
-        </tr>
-        <tr>
-          <td width="50%" bgcolor="#F08080" align="center">
-            Send E-mail(Form):
-          </td>
-          <td colspan="2">
-            <form action="mailto:eng.ahmedayman2510@gmail.com">
-              <label for="subject">Subject*</label><br />
-              <input
-                type="text"
-                id="subject"
-                placeholder="Enter subject.."
-                required
-              /><br />
-              <label for="message">Message*</label><br />
-              <textarea
-                id="message"
-                placeholder="Enter message.."
-                required
-                cols="50"
-                rows="5"
-              ></textarea
-              ><br />
-              <label for="phone">Phone</label><br />
-              <input
-                type="tel"
-                id="phone"
-                placeholder="Enter phone.."
-                required
-              /><br /><br />
-              <input type="submit" value="Send Mail" />
-            </form>
-          </td>
-        </tr>
-        <tr>
-          <td>StockCoders</td>
-          <td><a href="stockcoders99@gmail.com">stockcoders99@gmail.com</a></td>
-          <td align="center"><i>Nasr City, Cairo, Egypt</i></td>
-        </tr>
-        <tr>
-          <td colspan="3">
-            <!-- Parent Table -->
-            <table width="100%" border="0" align="center">
-              <tr>
-                <!-- Start First Row of Parent Table -->
-                <!-- Table(2) -->
+    <table cellspacing="0" class="master" border="1 solid DodgerBlue" width="80%" align="center" cellpadding="5">
+        <caption>
+            Table(1)
+        </caption>
+        <thead>
+            <tr bgcolor="#F5F5DC">
+                <th colspan="2">Links</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Stack Overflow</td>
                 <td>
-                  <table width="100%" border="1 solid" cellspacing="0">
-                    <caption>
-                      Table (2)
-                    </caption>
-                    <thead>
-                      <tr>
-                        <th>Name</th>
-                        <th>Send mail</th>
-                        <th>Phone</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>StockCoders</td>
-                        <td>
-                          <a href="stockcoders99@gmail.com"
-                            >stockcoders99@gmail.com</a
-                          >
-                        </td>
-                        <td>+20 123 456 7893</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                    <a href="https://stackoverflow.com/">https://stackoverflow.com/</a>
                 </td>
-                <!-- End Table(2) -->
-                <!-- Start Table(3) -->
+                <td align="center">...</td>
+            </tr>
+            <tr>
+                <td>W3School</td>
                 <td>
-                  <table width="100%" border="1 solid " cellspacing="0">
-                    <caption>
-                      Table (3)
-                    </caption>
-                    <thead>
-                      <tr>
-                        <th>Gender</th>
-                        <th>created_at</th>
-                        <th>updated_at</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Groups</td>
-                        <td>17-10-2023</td>
-                        <td>18-10-2023</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                    <a href="https://www.w3schools.com/">https://www.w3schools.com/</a>
                 </td>
-                <!-- End Table(3) -->
-              </tr>
-              <!-- Start First Row of Parent Table -->
-            </table>
-            <!-- End Parent Table -->
-          </td>
-          <!-- end Table (2) -->
-        </tr>
-        <tr>
-          <td colspan="3">
-            <!-- Start Parent Table 2 -->
-            <table align="center" border="0">
-              <tr>
+                <td rowspan="2" align="center">...</td>
+            </tr>
+            <tr>
+                <td>Laravel</td>
                 <td>
-                  <!-- Start Table (4) -->
-                  <table border="1 solid" cellspacing="0" cellpadding="10">
-                    <caption>
-                      Table (4)
-                    </caption>
-                    <tr>
-                      <thead>
-                        <th>Account Number</th>
-                        <th>CCV</th>
-                        <th>Transaction</th>
-                      </thead>
-                    </tr>
-                    <tr>
-                      <tbody align="center">
-                        <td>1111 1111 1111 1111</td>
-                        <td>000</td>
-                        <td>
-                          <table width="100%" cellpadding="5">
-                            <tr>
-                              <td>
-                                <tr>
-                                  <!-- Start Table (5) -->
-                                  <table border="1 solid" cellspacing="0">
+                    <a href="https://laravel.com/docs/11.x/readme">https://laravel.com/docs/11.x/readme</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">StockCoders</td>
+            </tr>
+            <tr>
+                <td width="50%" bgcolor="#F08080" align="center">
+                    Send E-mail(Form):
+                </td>
+                <td colspan="2">
+                    <form action="mailto:eng.ahmedayman2510@gmail.com">
+                        <label for="subject">Subject*</label><br />
+                        <input type="text" id="subject" placeholder="Enter subject.." required /><br />
+                        <label for="message">Message*</label><br />
+                        <textarea id="message" placeholder="Enter message.." required cols="50"
+                            rows="5"></textarea><br />
+                        <label for="phone">Phone</label><br />
+                        <input type="tel" id="phone" placeholder="Enter phone.." required /><br /><br />
+                        <input type="submit" value="Send Mail" />
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>StockCoders</td>
+                <td><a href="stockcoders99@gmail.com">stockcoders99@gmail.com</a></td>
+                <td align="center"><i>Nasr City, Cairo, Egypt</i></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <!-- Parent Table -->
+                    <table width="100%" border="0" align="center">
+                        <tr>
+                            <!-- Start First Row of Parent Table -->
+                            <!-- Table(2) -->
+                            <td>
+                                <table width="100%" border="1 solid" cellspacing="0">
                                     <caption>
-                                      Table (5)
+                                        Table (2)
                                     </caption>
-
                                     <thead>
-                                      <tr>
-                                        <th>-</th>
-                                        <th>
-                                          <font color="#8B0000"
-                                            >Transactions</font
-                                          >
-                                        </th>
-                                      </tr>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Send mail</th>
+                                            <th>Phone</th>
+                                        </tr>
                                     </thead>
-
                                     <tbody>
-                                      <tr>
-                                        <th>T1:</th>
-                                        <td>t90fsdgdsfhs</td>
-                                      </tr>
-                                      <tr>
-                                        <th>T2:</th>
-                                        <td>t31giktreaq</td>
-                                      </tr>
-                                      <tr>
-                                        <th>T3:</th>
-                                        <td>t56rnmiuotp</td>
-                                      </tr>
+                                        <tr>
+                                            <td>StockCoders</td>
+                                            <td>
+                                                <a href="stockcoders99@gmail.com">stockcoders99@gmail.com</a>
+                                            </td>
+                                            <td>+20 123 456 7893</td>
+                                        </tr>
                                     </tbody>
-                                  </table>
-                                  <!-- End Table (4) -->
-                                </tr>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tbody>
-                    </tr>
-                  </table>
-                  <!-- End Table (4) -->
+                                </table>
+                            </td>
+                            <!-- End Table(2) -->
+                            <!-- Start Table(3) -->
+                            <td>
+                                <table width="100%" border="1 solid " cellspacing="0">
+                                    <caption>
+                                        Table (3)
+                                    </caption>
+                                    <thead>
+                                        <tr>
+                                            <th>Gender</th>
+                                            <th>created_at</th>
+                                            <th>updated_at</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Groups</td>
+                                            <td>17-10-2023</td>
+                                            <td>18-10-2023</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <!-- End Table(3) -->
+                        </tr>
+                        <!-- Start First Row of Parent Table -->
+                    </table>
+                    <!-- End Parent Table -->
                 </td>
-              </tr>
-            </table>
-            <!-- End Parent Table 2 -->
-          </td>
+                <!-- end Table (2) -->
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <!-- Start Parent Table 2 -->
+                    <table align="center" border="0">
+                        <tr>
+                            <td>
+                                <!-- Start Table (4) -->
+                                <table border="1 solid" cellspacing="0" cellpadding="10">
+                                    <caption>
+                                        Table (4)
+                                    </caption>
+                                    <tr>
+                                        <thead>
+                                            <th>Account Number</th>
+                                            <th>CCV</th>
+                                            <th>Transaction</th>
+                                        </thead>
+                                    </tr>
+                                    <tr>
+                                        <tbody align="center">
+                                            <td>1111 1111 1111 1111</td>
+                                            <td>000</td>
+                                            <td>
+                                                <table width="100%" cellpadding="5">
+                                                    <tr>
+                                                        <td>
+                                                    <tr>
+                                                        <!-- Start Table (5) -->
+                                                        <table border="1 solid" cellspacing="0">
+                                                            <caption>
+                                                                Table (5)
+                                                            </caption>
+
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>-</th>
+                                                                    <th>
+                                                                        <font color="#8B0000">Transactions</font>
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th>T1:</th>
+                                                                    <td>t90fsdgdsfhs</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>T2:</th>
+                                                                    <td>t31giktreaq</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>T3:</th>
+                                                                    <td>t56rnmiuotp</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- End Table (4) -->
+                                                    </tr>
+                                            </td>
+                                    </tr>
+                                </table>
+                            </td>
+        </tbody>
         </tr>
-      </tbody>
     </table>
-  </body>
+    <!-- End Table (4) -->
+    </td>
+    </tr>
+    </table>
+    <!-- End Parent Table 2 -->
+    </td>
+    </tr>
+    </tbody>
+    </table>
+</body>
+
 </html>
