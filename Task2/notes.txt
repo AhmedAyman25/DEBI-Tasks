@@ -1,0 +1,25 @@
+** https://css-tricks.com/snippets/css/a-guide-to-flexbox/ **
+
+*** 
+ Notice that when the flex direction is a column,
+ justify-content changes to the vertical and align-items to the horizontal.
+***
+
+******************	Properties for the Parent (flex container) *****************************
+
+* display -> defines a flex container. It enables a flex context for all its direct children
+* flex-direction -> This establishes the main axis, and the direction in which the flex items are placed in the container.
+* flex-wrap -> This allows the items to wrap as needed, in order to fill the container.
+* flex-flow -> This is a shorthand for the flex-direction and flex-wrap properties.
+* justify-content -> This aligns items along the main axis (x axis), using the available space.
+* align-items -> This aligns items along the cross axis (y axis), using the available space.
+* align-content -> This aligns the content along the main axis (x axis), using the available space.
+
+**********************************************************************************************
+
+****************** Properties for the Children (flex items) **********************************
+
+* order -> This controls the order in which the flex items appear in the container.
+* align-self -> This allows the default alignment (or the alignment specified by the container) to be overridden for individual flex items.
+
+**********************************************************************************************
