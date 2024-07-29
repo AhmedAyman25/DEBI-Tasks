@@ -1,0 +1,219 @@
+@import url('./vraiables.css');
+/* Reset */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #EEE;
+	
+	
+}
+header {
+	background-color: rgba(41, 108, 196, 0.795);
+	color: antiquewhite;
+	text-align: center;
+	height: 4.5rem;
+	width: 100%;
+	
+	box-shadow: 0px 10px 20px 0px rgb(17, 227, 255);
+}
+header .head{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px;
+	border-radius: 8px;
+}
+.head li{
+	
+	list-style-type: none;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid;	
+	border-radius: 15px;
+	box-sizing: content-box;
+	font-size: 1.6rem;
+	transition: color 3s ease-in-out;
+	
+}
+.head li a{
+	text-decoration: none;
+	margin: 3px;
+}
+/* Whatsapp Style */
+.head .brand-whatsapp a,
+ .fa-square-whatsapp{
+	color: green;
+}
+.head .brand-whatsapp:hover{
+	background-color: rgba(30, 255, 0, 0.411);
+	/* border-radius: 10px;
+	padding: 3px; */
+}
+/* End Whatsapp Style */
+
+/* Facebook Style */
+.head .brand-facebook a,
+.fa-square-facebook {
+	color: rgb(6, 6, 201);
+}
+
+.head .brand-facebook:hover {
+	background-color: rgba(12, 25, 99, 0.411);
+	/* border-radius: 10px;
+	padding: 3px; */
+}
+/* End Facebook Style */
+
+/* Instagram Style */
+.head .brand-instagram a,
+.fa-square-instagram {
+	color: #e79857;
+}
+
+.head .brand-instagram:hover {
+	background-color: #E1306C;
+	/* border-radius: 10px;
+	padding: 3px; */
+}
+/* End Instagram Style */
+
+/* Linkedin Style */
+.head .brand-linkedin a,
+.fa-linkedin {
+	color: #3d36b9;
+}
+
+.head .brand-linkedin:hover {
+	background-color: #217ff2;
+	/* border-radius: 10px;
+	padding: 3px; */
+	
+}
+/* End Linkedin Style */
+
+/* Navbar style */
+.navbar {
+	margin-top: 20px;
+	background-color: var(--bg-primary-color);
+	width: 75%;
+	border-bottom: 2px solid cyan;
+	border-radius: 1rem;
+	margin-left: 12.5rem;
+	padding: 1rem;
+	position: sticky;
+	top: 0;
+}
+
+.navbar-container {
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar .navbar-items ul li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	list-style: none;
+	
+}
+
+.navbar .navbar-brand a img {
+	width: 130px;
+	height: 130px;
+}
+
+.navbar .navbar-brand a img:hover {
+	
+	filter: drop-shadow(-1px 0px 26px #940000);
+	
+	
+}
+.navbar .navbar-items{
+	width: 70%;
+	
+}
+.navbar .navbar-items ul {
+    display: flex;
+	justify-content: space-around;
+}
+
+.navbar .navbar-items a , .fa-solid{
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: bisque;
+	margin: 3px;
+	transition: all 0.2s ease-in-out;
+}
+
+
+ .navbar .navbar-items ul li:hover {
+ 	background-color: beige;
+ 	padding: 5px;
+ 	color: black;
+ 	box-shadow: 0 10px 20px 0 rgb(15, 170, 56);
+ 	border: 2px solid;
+ 	border-radius: 10px;
+ 	
+ }
+ .navbar-items ul li:hover a,
+ .navbar-items ul li:hover i {
+ 	color: #000000;
+ 	
+ }
+/* End Navbar Style */
+
+/* Start Section Style */
+section .row {
+	margin-top: 5rem;
+	display: flex;
+	position: relative;
+}
+
+section .row .col {
+	background-color: var(--light-color);
+	color: rgb(61, 57, 57);
+	padding: 1.6rem 2rem 4rem 1.2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	border-radius: 1.8rem;
+	box-shadow: -1px -1px 1px;
+}
+
+section .row .col h2 {
+	font-style: italic;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+section .row .col p {
+	font-size: 2rem;
+	text-align: center;
+}
+
+section .row .col button {
+	padding: 1rem;
+	background-color: var(--bg-primary-color);
+	margin-left: 20rem;
+	border: none;
+	outline: none;
+	border-radius: 1.8rem;
+	margin-top: 1rem;
+}
+/* End Section Style */
+
+ .row .col:nth-child(2){
+	position: relative;
+	bottom:3rem;
+	right: 7rem;	
+} 
+
+
